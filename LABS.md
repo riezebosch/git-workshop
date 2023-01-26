@@ -57,3 +57,12 @@ download: git-scm.com, or use your favourite package manager
 1. explore the contents of the bare repository
 1. switch to the terminal where you have the bare repository open
 1. check the git logs and branches
+
+## 5. fork process
+
+1. Create a Fork
+   Simply click on the “fork” button of the repository page
+1. Clone your Fork
+   The standard clone command creates a local git repository from your remote fork
+1. Modify the Code
+   In your local clone, modify the code and commit them to your local clone using the git commit command.
