@@ -48,12 +48,20 @@ download: https://git-scm.com, or use your favourite package manager
 ## 4. remotes
 
 1. open a third terminal (or tab)
-2. navigate to the directory where you want your repositories to reside
-3. initialize a new repository and make it bare using `git init demo-bare.git --bare`
-4. compare the directory structure with your original repository
-5. switch to the terminal with your original repository
-6. add the new bare repository as remote `git remote add origin ../demo-bare.git`
-7. push your current branch into your remote named `origin` command git push -u 'remote-name' 'branch-name'
-8. explore the contents of the bare repository
-9. switch to the terminal where you have the bare repository open
-10. check the git logs and branches
+1. navigate to the directory where you want your repositories to reside
+1. initialize a new repository and make it bare using `git init demo-bare.git --bare`
+1. compare the directory structure with your original repository
+1. switch to the terminal with your original repository
+1. add the new bare repository as remote `git remote add origin ../demo-bare.git`
+1. push your current branch into your remote named `origin`
+1. explore the contents of the bare repository
+1. switch to the terminal where you have the bare repository open
+1. check the git logs and branches
+
+## 5. fork 
+
+1. Find on github repository you want to fork (copy) e.g. https://github.com/riezebosch/git-workshop
+1. on your own account click the button 'Fork'
+1. accept / enter the neme of yor own project where you want to kee the copy of the source repository
+
+## 6 test
