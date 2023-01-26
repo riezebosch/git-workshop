@@ -69,3 +69,9 @@ download: git-scm.com, or use your favourite package manager
    where you want to keep the copy of the source repository
 
 ## 6 test
+
+## 7. Continue reading
+
+* search online for `ry's git tutorial`
+* puzzles: [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
+* free ebook from git tower [https://www.git-tower.com/learn/git/ebook](https://www.git-tower.com/learn/git/ebook)
