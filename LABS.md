@@ -20,7 +20,7 @@ download: git-scm.com, or use your favourite package manager
 2. start tracking the file using `git add <filename>`
 3. see the blob appear in gitviz and/or the `.git/objects/` subfolder
 4. check the status using `git status`
-5. commit the staged files using `git commit -m 'your message'`
+5. commit the staged files using `git commit -m "your message"`
 6. check the tree and commit appear
 7. change the contents of the file
 8. stage your changes using `git add`
