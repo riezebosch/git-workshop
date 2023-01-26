@@ -1,3 +1,5 @@
+# Git Workshop
+
 ## 0. install git
 
 download: git-scm.com, or use your favourite package manager
@@ -10,7 +12,7 @@ download: git-scm.com, or use your favourite package manager
     2. `git config --global user.email your@email.com`
 3. navigate to the folder you want your repositories to be
 4. initialize an empty repository `git init demo`
-5. download gitviz from https://github.com/riezebosch/gitviz/releases
+5. download gitviz from [https://github.com/riezebosch/gitviz/releases](https://github.com/riezebosch/gitviz/releases)
 6. open a second terminal and start gitviz providing the location of your repository:
     * e.g. `gitviz C:\some-path\git\demo`
 
@@ -58,10 +60,12 @@ download: git-scm.com, or use your favourite package manager
 1. switch to the terminal where you have the bare repository open
 1. check the git logs and branches
 
-## 5. fork 
+## 5. fork
 
-1. Find on github repository you want to fork (copy) e.g. https://github.com/riezebosch/git-workshop
+1. Find on github repository you want to fork (copy) e.g.
+  [https://github.com/riezebosch/git-workshop](https://github.com/riezebosch/gitviz/releases)
 1. on your own account click the button 'Fork'
-1. accept / enter the name of yor own project where you want to kee the copy of the source repository
+1. accept/enter the name of your own project
+   where you want to keep the copy of the source repository
 
 ## 6 test
