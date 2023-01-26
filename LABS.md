@@ -1,6 +1,6 @@
 ## 0. install git
 
-download: git-scm.com, or use your favourite package manager
+download: https://git-scm.com, or use your favourite package manager
 
 ## 1. initialize a repository
 
@@ -31,19 +31,19 @@ download: git-scm.com, or use your favourite package manager
 ## 3. branching and merging
 
 1. create and checkout new branch
-    1. either use `git branch feature/x` & `git checkout feature/x`
-    1. or in one go using `git checkout -B feature/x`
-    1. or use the new(ish) command `git switch -C feature/x`
-1. do some modifications and commit the results
-1. check the history (of current branch!) using `git log` or `git log --oneline`
-1. switch back to your previous branch `git checkout -` or `git switch -`
-1. create a new branch `feature/y`
-1. do some other modifications and commit the results
-1. switch back to your original branch
-1. integrate both branches using `git merge feature/x feature/y`
-1. watch the logs using `git log --decorate --graph --oneline`
-1. delete both feature branches using `git branch -D feature/x feature/y`
-1. watch the logs again using `git log --decorate --graph --oneline`
+    1.1 either use `git branch feature/x` & `git checkout feature/x`
+    1.2 or in one go using `git checkout -B feature/x`
+    1.3 or use the new(ish) command `git switch -C feature/x`
+2. do some modifications and commit the results
+3. check the history (of current branch!) using `git log` or `git log --oneline`
+4. switch back to your previous branch `git checkout -` or `git switch -`
+5. create a new branch `feature/y`
+6. do some other modifications and commit the results
+7. switch back to your original branch
+8. integrate both branches using `git merge feature/x feature/y`
+9. watch the logs using `git log --decorate --graph --oneline`
+10. delete both feature branches using `git branch -D feature/x feature/y`
+11. watch the logs again using `git log --decorate --graph --oneline`
 
 ## 4. remotes
 
