@@ -1,6 +1,6 @@
 ## 0. install git
 
-download: git-scm.com (https://git-scm.com), or use your favourite package manager
+download: [git-scm.com](https://git-scm.com), or use your favourite package manager
 
 ## 1. initialize a repository
 
@@ -53,7 +53,7 @@ download: git-scm.com (https://git-scm.com), or use your favourite package manag
 1. compare the directory structure with your original repository
 1. switch to the terminal with your original repository
 1. add the new bare repository as remote `git remote add origin ../demo-bare.git`
-1. push your current branch into your remote named `origin`: `git push origin ../demo-bare.git`
+1. push your current branch into your remote named `origin` using `git push origin ../demo-bare.git`
 1. explore the contents of the bare repository
 1. switch to the terminal where you have the bare repository open
 1. check the git logs and branches
