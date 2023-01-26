@@ -5,28 +5,28 @@ download: git-scm.com, or use your favourite package manager
 ## 1. initialize a repository
 
 1. open a terminal, either cmd, bash, terminal, whatever
-2. do some basic configuration:
+1. do some basic configuration:
     1. `git config --global user.name "Your Name"`
-    2. `git config --global user.email your@email.com`
-3. navigate to the folder you want your repositories to be
-4. initialize an empty repository `git init demo`
-5. download gitviz from https://github.com/riezebosch/gitviz/releases
-6. open a second terminal and start gitviz providing the location of your repository:
+    1. `git config --global user.email your@email.com`
+1. navigate to the folder you want your repositories to be
+1. initialize an empty repository `git init demo`
+1. download gitviz from https://github.com/riezebosch/gitviz/releases
+1. open a second terminal and start gitviz providing the location of your repository:
     * e.g. `gitviz C:\some-path\git\demo`
 
 ## 2. basic snapshotting
 
 1. add a file to the "working directory" of this new repository
-2. start tracking the file using `git add <filename>`
-3. see the blob appear in gitviz and/or the `.git/objects/` subfolder
-4. check the status using `git status`
-5. commit the staged files using `git commit -m "your message"`
-6. check the tree and commit appear
-7. change the contents of the file
-8. stage your changes using `git add`
-9. commit the staged changes using `git commit`
-10. check the updated graph in gitviz
-11. rinse and repeat
+1. start tracking the file using `git add <filename>`
+1. see the blob appear in gitviz and/or the `.git/objects/` subfolder
+1. check the status using `git status`
+1. commit the staged files using `git commit -m "your message"`
+1. check the tree and commit appear
+1. change the contents of the file
+1. stage your changes using `git add`
+1. commit the staged changes using `git commit`
+1. check the updated graph in gitviz
+1. rinse and repeat
 
 ## 3. branching and merging
 
