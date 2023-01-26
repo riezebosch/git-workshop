@@ -32,28 +32,28 @@ download: git-scm.com, or use your favourite package manager
 
 1. create and checkout new branch
     1. either use `git branch feature/x` & `git checkout feature/x`
-    1. or in one go using `git checkout -B feature/x`
-    1. or use the new(ish) command `git switch -C feature/x`
-1. do some modifications and commit the results
-1. check the history (of current branch!) using `git log` or `git log --oneline`
-1. switch back to your previous branch `git checkout -` or `git switch -`
-1. create a new branch `feature/y`
-1. do some other modifications and commit the results
-1. switch back to your original branch
-1. integrate both branches using `git merge feature/x feature/y`
-1. watch the logs using `git log --decorate --graph --oneline`
-1. delete both feature branches using `git branch -D feature/x feature/y`
-1. watch the logs again using `git log --decorate --graph --oneline`
+    2. or in one go using `git checkout -B feature/x`
+    3. or use the new(ish) command `git switch -C feature/x`
+2. do some modifications and commit the results
+3. check the history (of current branch!) using `git log` or `git log --oneline`
+4. switch back to your previous branch `git checkout -` or `git switch -`
+5. create a new branch `feature/y`
+6. do some other modifications and commit the results
+7. switch back to your original branch
+8. integrate both branches using `git merge feature/x feature/y`
+9. watch the logs using `git log --decorate --graph --oneline`
+10. delete both feature branches using `git branch -D feature/x feature/y`
+11. watch the logs again using `git log --decorate --graph --oneline`
 
 ## 4. remotes
 
 1. open a third terminal (or tab)
-1. navigate to the directory where you want your repositories to reside
-1. initialize a new repository and make it bare using `git init demo-bare.git --bare`
-1. compare the directory structure with your original repository
-1. switch to the terminal with your original repository
-1. add the new bare repository as remote `git remote add origin ../demo-bare.git`
-1. push your current branch into your remote named `origin`
-1. explore the contents of the bare repository
-1. switch to the terminal where you have the bare repository open
-1. check the git logs and branches
+2. navigate to the directory where you want your repositories to reside
+3. initialize a new repository and make it bare using `git init demo-bare.git --bare`
+4. compare the directory structure with your original repository
+5. switch to the terminal with your original repository
+6. add the new bare repository as remote `git remote add origin ../demo-bare.git`
+7. push your current branch into your remote named `origin`
+8. explore the contents of the bare repository
+9. switch to the terminal where you have the bare repository open
+10. check the git logs and branches
