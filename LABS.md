@@ -1,6 +1,6 @@
 ## 0. install git
 
-download: git-scm.com, or use your favourite package manager
+download: git-scm.com (https://git-scm.com), or use your favourite package manager
 
 ## 1. initialize a repository
 
