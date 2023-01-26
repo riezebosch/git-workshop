@@ -53,7 +53,12 @@ download: git-scm.com, or use your favourite package manager
 1. compare the directory structure with your original repository
 1. switch to the terminal with your original repository
 1. add the new bare repository as remote `git remote add origin ../demo-bare.git`
-1. push your current branch into your remote named `origin`
+1. push your current branch into your remote named `origin`: `git push origin ../demo-bare.git`
 1. explore the contents of the bare repository
 1. switch to the terminal where you have the bare repository open
 1. check the git logs and branches
+
+## 5. fork exercise
+
+1. navigate to the folder where your repositories are
+1. clone the remote repository created in ##4 to a new repository: `git clone ../demo-bare.git`
