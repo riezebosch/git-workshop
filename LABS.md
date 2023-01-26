@@ -61,4 +61,4 @@ download: git-scm.com, or use your favourite package manager
 ## 5. fork exercise
 
 1. navigate to the folder where your repositories are
-1. clone the remote repository created in ##4 to a new repository: `git clone ../demo-bare.git`
+1. clone the remote repository created in ##4 to a new repository called `new-demo`: `git clone ../demo-bare.git new-demo`
