@@ -1,10 +1,10 @@
 # Git Workshop
 
-## 0. install git
+## 0. Install git
 
 download: git-scm.com, or use your favourite package manager
 
-## 1. initialize a repository
+## 1. Initialize a repository
 
 1. open a terminal, either cmd, bash, terminal, whatever
 2. do some basic configuration:
@@ -16,7 +16,7 @@ download: git-scm.com, or use your favourite package manager
 6. open a second terminal and start gitviz providing the location of your repository:
     * e.g. `gitviz C:\some-path\git\demo`
 
-## 2. basic snapshotting
+## 2. Basic snapshotting
 
 1. add a file to the "working directory" of this new repository
 2. start tracking the file using `git add <filename>`
@@ -30,7 +30,7 @@ download: git-scm.com, or use your favourite package manager
 10. check the updated graph in gitviz
 11. rinse and repeat
 
-## 3. branching and merging
+## 3. Branching and merging
 
 1. create and checkout new branch
     1. either use `git branch feature/x` & `git checkout feature/x`
@@ -47,7 +47,7 @@ download: git-scm.com, or use your favourite package manager
 1. delete both feature branches using `git branch -D feature/x feature/y`
 1. watch the logs again using `git log --decorate --graph --oneline`
 
-## 4. remotes
+## 4. Remotes
 
 1. open a third terminal (or tab)
 1. navigate to the directory where you want your repositories to reside
@@ -60,7 +60,7 @@ download: git-scm.com, or use your favourite package manager
 1. switch to the terminal where you have the bare repository open
 1. check the git logs and branches
 
-## 5. fork
+## 5. Fork
 
 1. Find on github repository you want to fork (copy) e.g.
   [https://github.com/riezebosch/git-workshop](https://github.com/riezebosch/gitviz/releases)
@@ -68,7 +68,7 @@ download: git-scm.com, or use your favourite package manager
 1. accept/enter the name of your own project
    where you want to keep the copy of the source repository
 
-## 6 test
+## 6 Test
 
 ## 7. Continue reading
 
