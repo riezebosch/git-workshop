@@ -1,6 +1,6 @@
 # Erik added this
 
-# Git Workshop
+## Git Workshop
 
 ## 0. Install git
 
